@@ -1,0 +1,97 @@
+
+DNS Benchmark Conclusions & Recommendations
+
+What the results you have just obtained mean to YOU
+
+The results summary, conclusions, and recommendations from your most recent run of this DNS benchmark are provided below. Please carefully consider the implications of making any changes to your system's current configuration before doing so.
+
+
+ý Only the built-in default resolvers were benchmarked.
+Please consider taking the time to create a custom resolver list.
+This is a reminder about the tremendous benefits to be gained from benchmarking the "Top 50" resolvers that are found for you by the Benchmark's custom resolver list builder. When you have time, don't forget to give that a try. The results will astound you! You can find the option to do this on either the application's System Menu (Alt-Spacebar) or on the Add/Remove nameservers dialog on the Nameservers page.
+
+
+ý System has only ONE (router based) nameserver configured.
+It appears that only one local (router gateway) DNS nameserver, with the IP address of [192.168.1.1], is currently providing all DNS name resolution services to this system. This configuration is not recommended because most consumer-grade routers provide inefficient and under-powered DNS resolution services.
+
+Unless the DNS resolvers your router is using is under your control, it may not be providing the best or complete name resolution services. For example, is it using multiple redundant DNS nameservers?
+
+Users of GRC's DNS Spoofability system have determined that consumer-grade routers can be crashed by the receipt of specific DNS reply packets from the Internet. This opens the possibility that Internet-based criminals could acquire access to your router from the Internet as well as to the private network in controls.
+
+Many consumer-grade routers fail to provide the full range of DNS lookup services. This may have been detected by the benchmark and noted below.
+
+Recommended Actions:
+
+Unless you have some specific reason not to, you should give serious thought to disabling your router's provisioning of DNS services (which it is providing for all computers on your local network). After this is done, a fresh reboot of your computers will likely reveal the multiple DNS nameservers provided by your ISP. This is a superior configuration, without an under-powered router acting as a incompetent middleman and impeding all DNS access.
+
+Note that if you can determine the IP addresses of your ISP-provided nameservers (which may be visible in your router's web configuration) you could manually add them to the nameservers being tested by this benchmark, while also leaving your router providing DNS. This would allow you to compare the performance when running through your router versus "going direct".
+
+
+þ System's sole nameserver is alive and replying to queries.
+Although this system has only one DNS resolving nameserver, at least it is alive and replying to DNS queries.  (If it were not, you would likely be painfully aware, since it would be difficult to accomplish anything requiring Internet access.)
+
+
+ý System nameserver is SLOWER than 1 public alternative!
+This benchmark found 1 publicly available DNS nameserver that is reliably faster than the slowest nameserver currently being used by this system. If you were to adjust your system's configuration to use this nameserver instead of what it is currently using, your DNS lookup performance, and all use of the Internet, would be improved.
+
+Recommended Actions:
+
+With at least 95% certainty:  Based upon a statistical analysis of the spread in timing value samples received during the benchmark, there is at least a 95% certainty that the performance conclusions stated above are correct. But even so, since changing DNS nameservers requires thought and effort, it's something you want to be sure about. Therefore, since these results represent a single snapshot in time, you may wish to confirm that the faster alternative nameservers are consistently faster than your system's currently configured nameservers, and that those public alternatives don't have any negative characteristics such as being colored orange to signify that they redirect mistaken URLs to an advertising-laden search page rather than returning an error (which will be a concern to some users).
+
+You may also wish to check the relative performance at different times of day to make sure that the performance improvement over your system's current nameservers is reliable throughout the day.
+
+And you may wish to make sure that the alternative nameservers are enough faster than what you are currently using for the improvement to be worth changing away from what you're currently using. (This test is only saying that it's 95% sure they are any amount faster.)
+
+
+þ This system's nameserver is 100% reliable.
+DNS reliability is extremely important, since lookup requests that are dropped and ignored by nameservers cause significant delays in Internet access while the querying system waits for a reply. The system is then finally forced to reissue the query to the same or to backup nameservers. While your system is patiently waiting for a reply, you are impatiently waiting to get on with your Internet access.
+
+During this benchmark test, the system's nameserver tested returned a reply for every request sent. It doesn't get any better than that. Very nice.
+
+
+þ This system nameserver returns errors.
+This is a GOOD thing!  Some DNS providers, such as OpenDNS and even the Earthlink, Roadrunner and Comcast ISPs, redirect incorrectly entered URLs to their own advertising-laden marketing-driven interception page instead of simply returning an error to the web browser. But this system's nameserver is returning errors when asked to lookup non-existent domain names.
+
+
+þ System nameserver is replying to all query types.
+During the development of this DNS Benchmark we discovered that the routers used by some pre-release testers were not returning results for the benchmark's Uncached and/or Dotcom testing queries. Even though these queries are admittedly unusual, they are completely valid. So the only conclusion was that those few routers were inherently defective. The good news here is that your nameserver is replying to these unusual but valid queries.
+
+
+____________________________________________________________________
+
+REMEMBER TO CHECK SPOOFABILITY !!
+Whether you make any changes to your nameservers or not, but
+especially if you do, be sure to verify the security of your final DNS
+resolver set by using GRC's free "DNS Spoofability" testing service!
+
+ http://www.GRC.com/dns/dns.htm 
+_______________________________________________________________________________________________________________________
+
+
+If you require assistance . . .
+
+If you require assistance with the implementation any of the suggested changes to your system's DNS configuration, several sources of help are available:
+
+For help with the operation and use of this DNS Benchmark program, please reference the extensive DNS Benchmark pages at the GRC website:
+
+ http://www.GRC.com/dns/benchmark.htm 
+
+For help with any of the specific conclusions or recommendations above, please see the DNS Benchmark FAQ (Frequently Asked Questions) page:
+
+ http://www.GRC.com/dns/benchmark-faq.htm 
+
+Knowledge of the DNS domain name system is widespread among those in public technical Internet forums. You will very likely be able to obtain answers to any specific questions you may have by asking knowledgeable inhabitants of online communities.
+
+GRC maintains and operates a comprehensive online "newsgroup" community and has a specific newsgroup - grc.dns - dedicated to the discussion of DNS issues including this DNS benchmark program (where it was developed) and GRC's online DNS Spoofability testing service. Please see the following web page for help with joining and participating in GRC's terrific newsgroups:
+
+ http://www.GRC.com/discussions.htm 
+
+GRC's technical support services are limited to the support of licensees of our commercial software products and do not extend to the support of our freely available software or online services. Please do not write to us (GRC / Gibson Research Corporation) for assistance in connection with this freeware utility.
+
+You will find that ample help is freely available
+within the Internet community.  Thank you!
+
+- Steve Gibson
+
+Please Note: This program is Copyright (c) 2010 by Gibson Research Corporation -- ALL RIGHTS RESERVED. This program is FREEWARE. Although it may not be altered in any way, it MAY BE FREELY COPIED AND DISTRIBUTED onto and through any and all computer media in ANY form or fashion. You are hereby granted the right to do so.
+• • •

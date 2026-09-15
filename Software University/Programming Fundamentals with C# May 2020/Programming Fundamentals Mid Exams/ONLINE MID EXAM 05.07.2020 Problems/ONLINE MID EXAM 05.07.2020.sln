@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1", "Problem 1\Problem 1.csproj", "{F00AFC35-593C-4279-849D-819E16802DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2", "Problem 2\Problem 2.csproj", "{64943F53-3B39-497B-A9AF-BFE8E7C6665D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3", "Problem 3\Problem 3.csproj", "{E97A7D56-423F-4FE3-A042-79743C09FACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F00AFC35-593C-4279-849D-819E16802DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00AFC35-593C-4279-849D-819E16802DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00AFC35-593C-4279-849D-819E16802DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00AFC35-593C-4279-849D-819E16802DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64943F53-3B39-497B-A9AF-BFE8E7C6665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64943F53-3B39-497B-A9AF-BFE8E7C6665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64943F53-3B39-497B-A9AF-BFE8E7C6665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64943F53-3B39-497B-A9AF-BFE8E7C6665D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97A7D56-423F-4FE3-A042-79743C09FACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97A7D56-423F-4FE3-A042-79743C09FACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97A7D56-423F-4FE3-A042-79743C09FACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97A7D56-423F-4FE3-A042-79743C09FACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {449A32FA-0235-4820-A9CB-4BD3189B0DA7}
+	EndGlobalSection
+EndGlobal

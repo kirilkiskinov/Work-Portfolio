@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USD to BGN", "Simple-Calculations Exercises\USD to BGN.csproj", "{D0246162-4EED-4E8C-9417-FFBA80586706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radians to Degrees", "Radians to Degrees\Radians to Degrees.csproj", "{D06D3DB7-AC59-4A4B-AFEB-99F31BC8F90F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2D Rectangle Area", "2D Rectangle Area\2D Rectangle Area.csproj", "{88169A55-2F58-422D-80B4-158DA552A8A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailoring Workshop", "Tailoring Workshop\Tailoring Workshop.csproj", "{68868682-8208-4A2A-A932-339EF5191BA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dance Hall", "Dance Hall\Dance Hall.csproj", "{AD61B1BB-0102-488B-BBB8-AC2267E1FDB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charity Campaign", "Charity Campaign\Charity Campaign.csproj", "{DE209790-530F-45EF-86BD-84CCDCA12933}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alcohol Market", "Alcohol Market\Alcohol Market.csproj", "{D4B6B92F-BA8A-456F-B39F-872F19E9D91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0246162-4EED-4E8C-9417-FFBA80586706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0246162-4EED-4E8C-9417-FFBA80586706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0246162-4EED-4E8C-9417-FFBA80586706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0246162-4EED-4E8C-9417-FFBA80586706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06D3DB7-AC59-4A4B-AFEB-99F31BC8F90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06D3DB7-AC59-4A4B-AFEB-99F31BC8F90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06D3DB7-AC59-4A4B-AFEB-99F31BC8F90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06D3DB7-AC59-4A4B-AFEB-99F31BC8F90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88169A55-2F58-422D-80B4-158DA552A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88169A55-2F58-422D-80B4-158DA552A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88169A55-2F58-422D-80B4-158DA552A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88169A55-2F58-422D-80B4-158DA552A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68868682-8208-4A2A-A932-339EF5191BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68868682-8208-4A2A-A932-339EF5191BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68868682-8208-4A2A-A932-339EF5191BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68868682-8208-4A2A-A932-339EF5191BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD61B1BB-0102-488B-BBB8-AC2267E1FDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD61B1BB-0102-488B-BBB8-AC2267E1FDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD61B1BB-0102-488B-BBB8-AC2267E1FDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD61B1BB-0102-488B-BBB8-AC2267E1FDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE209790-530F-45EF-86BD-84CCDCA12933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE209790-530F-45EF-86BD-84CCDCA12933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE209790-530F-45EF-86BD-84CCDCA12933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE209790-530F-45EF-86BD-84CCDCA12933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B6B92F-BA8A-456F-B39F-872F19E9D91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B6B92F-BA8A-456F-B39F-872F19E9D91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B6B92F-BA8A-456F-B39F-872F19E9D91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B6B92F-BA8A-456F-B39F-872F19E9D91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1878C7-737D-4200-A596-3423ABC9E88C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿//Write program to enter an integer number of centuries and convert it to years, days, 
+//hours and minutes.
+//Hints:
+//•	Use appropriate data type to fit the result after each data conversion.
+//•	Assume that a year has 365.2422 days at average (the Tropical year).
+
+using System;
+
+namespace _04._Centuries_to_Minutes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            byte centuries = byte.Parse(Console.ReadLine());
+
+            ushort years = (ushort) (centuries * 100);
+
+            uint days = (uint) (years * 365.2422);
+
+            uint hours = days * 24;
+
+            uint minutes = hours * 60;
+
+            Console.WriteLine($"{centuries} centuries = {years} years = {days} days = {hours} hours = {minutes} minutes");
+        }
+    }
+}

@@ -1,0 +1,64 @@
+free -m
+lscpu
+lspci
+lsusb
+sudo hwinfo
+sudo lshw
+w
+htop
+top
+fdisk -l
+df -h
+inxi ( -bay -b, -C, -S)
+bmon
+nmon
+7z b ( наблюдение с top и sensors)
+sudo facter virtual
+
+#########################################
+
+dmidecode - DMI table decoder
+dmidecode is a free userspace command-line utility for Linux that can parse the SMBIOS data. 
+The name dmidecode is derived from Desktop Management Interface, a related standard with which dmidecode originally interfaced. SMBIOS was originally named DMIBIOS. 
+
+dmidecode -t memory
+dmidecode -t bios
+dmidecode -t system
+bios, system, baseboard, chassis, processor, memory, cache, connector, slot
+##############################################
+decode-dimms (modprobe eeprom)
+######################################
+SMART (Self-Monitoring, Analysis and Reporting Technology)
+
+smartctl - Control and Monitor Utility for SMART Disks
+smartctl -i /dev/sda
+smartctl -a /dev/sda
+smartctl -x /dev/sda
+(smartctl -t short /dev/sda)
+First - test!
+smartctl -l selftest  /dev/sda
+
+#########################################
+
+---------------------Задача 1-----------------------
+
+Запишете във файл с вашето име output-a от следните команди:
+Използвайте ">>"  (append)  командите да са разделени с "##################"
+
+sudo dmidecode -t system
+sudo smartctl -i /dev/sda
+lsusb
+lspci 
+
+Запишете output на следната команда:
+sensors > `date +"%d-%m-%y"`-name.txt
+
+
+---------------------Задача 2-----------------------
+
+Въпрос: Какво показва load average в Linux?
+
+
+---------------------Задача 3-----------------------
+
+Опишете Какво е RES, VIRT, SHR Памет. 
