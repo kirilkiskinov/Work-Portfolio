@@ -1,0 +1,10 @@
+1. Midjourney (image generation)
+2. Kling AI (Kling Canvas)
+3. ElevenLabs (voice over)
+4. Higgsfield AI
+5. Heygen (AI реклами с хора на всеки език)
+6. Submagic (captions)
+7. Astria (генериране на снимки)
+8. weavy.ai
+9. comfyui
+10. Freepik

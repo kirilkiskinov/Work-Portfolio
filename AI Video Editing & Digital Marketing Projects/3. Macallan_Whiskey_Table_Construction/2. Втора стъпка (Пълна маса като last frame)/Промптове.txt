@@ -1,0 +1,4 @@
+I want you to recreate the image in  Image1  using the same background, style and camera angle in  Image2 . Keep the name and numbers of the bottles clear and visable, the whiskey bottles are named: "Macallan". No blurring at the end of the table with the bottles, bottles and stones must be clear and visable.
+
+
+Only make the text on the bottles more visable, on one of the bottles the 25 is not well seen, make it more clean, keep everything else the same
